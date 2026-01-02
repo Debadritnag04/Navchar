@@ -118,8 +118,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Address</h4>
                   <p className="text-muted-foreground">
-                    [Registered Office Address]<br />
-                    Kolkata, West Bengal, India
+                    Tamluk Maniktola, Millenium Court Building, Bar Padumbasan, word no -04, 3rd Floor, Building No - 532,  Pin code - 721636
                   </p>
                 </div>
               </div>
@@ -130,7 +129,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Phone</h4>
-                  <p className="text-muted-foreground">+91 [XXX XXX XXXX]</p>
+                  <p className="text-muted-foreground">+91 8420806236</p>
                 </div>
               </div>
 

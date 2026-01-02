@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import navacharLogo from "@/assets/navachar-logo.jpeg";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,12 +33,16 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 lg:px-8">
         <nav className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo Text */}
+          {/* Logo */}
           <button
             onClick={() => scrollToSection("home")}
-            className="flex items-center text-primary-foreground hover:text-primary-foreground/80 transition-colors font-semibold text-lg tracking-wide"
+            className="flex items-center"
           >
-            NAVACHAR HR & Technology
+            <img 
+              src={navacharLogo} 
+              alt="Navachar Logo" 
+              className="h-11 w-auto object-contain md:h-14"
+            />
           </button>
 
           {/* Desktop Navigation */}
