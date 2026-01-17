@@ -5,7 +5,6 @@ import HeroSection from "@/components/HeroSection";
 import VisionMission from "@/components/VisionMission";
 import CoreObjectives from "@/components/CoreObjectives";
 import DirectorsSection from "@/components/DirectorsSection";
-import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -29,7 +28,6 @@ const Index = () => {
       <VisionMission />
       <CoreObjectives />
       <DirectorsSection />
-      <ContactSection />
       <Footer />
     </main>
   );

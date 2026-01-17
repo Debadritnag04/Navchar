@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { Users, Briefcase, UserCheck, ShieldCheck } from "lucide-react";
+import hrStaffImg from "@/assets/hr_staff.png";
 
 const HRStaffing = () => {
   const navigate = useNavigate();
@@ -43,8 +44,12 @@ const HRStaffing = () => {
                 ))}
               </ul>
             </div>
-            <div className="bg-muted rounded-2xl p-8 flex items-center justify-center">
-              <Users className="h-48 w-48 text-primary/20" />
+            <div className="bg-muted rounded-2xl overflow-hidden self-center shadow-sm">
+              <img 
+                src={hrStaffImg} 
+                alt="HR Staffing" 
+                className="w-full h-auto block"
+              />
             </div>
           </div>
 

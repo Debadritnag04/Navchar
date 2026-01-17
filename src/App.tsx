@@ -9,6 +9,8 @@ import HRStaffing from "./pages/services/HRStaffing";
 import SkillDevelopment from "./pages/services/SkillDevelopment";
 import SupplyServices from "./pages/services/SupplyServices";
 import DigitalSolutions from "./pages/services/DigitalSolutions";
+import Contact from "./pages/Contact";
+import PartnerWithUs from "./pages/PartnerWithUs";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +26,8 @@ const App = () => (
           <Route path="/services/skill-development" element={<SkillDevelopment />} />
           <Route path="/services/supply-services" element={<SupplyServices />} />
           <Route path="/services/digital-solutions" element={<DigitalSolutions />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/partner-with-us" element={<PartnerWithUs />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

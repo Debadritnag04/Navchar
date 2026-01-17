@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-office.jpg";
 import navacharLogo from "@/assets/navachar-logo.jpeg";
+import { useNavigate } from "react-router-dom";
+
 const HeroSection = () => {
+  const navigate = useNavigate();
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -56,7 +59,7 @@ const HeroSection = () => {
                 animationDelay: "0.3s"
               }
             }>
-              <Button variant="hero" size="lg" onClick={() => scrollToSection("contact")} className="text-lg px-8">
+              <Button variant="hero" size="lg" onClick={() => navigate("/partner-with-us")} className="text-lg px-8">
                 Partner With Us
               </Button>
               <Button variant="hero-outline" size="lg" onClick={() => scrollToSection("vision-mission")} className="text-lg px-8">

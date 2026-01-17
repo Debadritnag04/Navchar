@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { GraduationCap, BookOpen, Award, Target } from "lucide-react";
+import skillDevImg from "@/assets/skill-dev.png";
 
 const SkillDevelopment = () => {
   const navigate = useNavigate();
@@ -24,8 +25,12 @@ const SkillDevelopment = () => {
       <div className="py-20 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
-            <div className="order-2 md:order-1 bg-muted rounded-2xl p-8 flex items-center justify-center">
-              <GraduationCap className="h-48 w-48 text-primary/20" />
+            <div className="order-2 md:order-1 bg-muted rounded-2xl flex items-center justify-center overflow-hidden">
+              <img 
+                src={skillDevImg} 
+                alt="Skill Development" 
+                className="w-full h-full object-cover aspect-square md:aspect-video lg:aspect-square"
+              />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold mb-6">Empowering Future Leaders</h2>

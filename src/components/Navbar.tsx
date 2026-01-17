@@ -174,7 +174,7 @@ const Navbar = () => {
               Directors
             </button>
             <button
-              onClick={() => scrollToSection("contact")}
+              onClick={() => handleServiceClick("/contact")}
               className="text-primary-foreground hover:text-primary-foreground/80 transition-colors font-medium"
             >
               Contact
@@ -182,7 +182,7 @@ const Navbar = () => {
             <Button
               variant="nav"
               size="default"
-              onClick={() => scrollToSection("contact")}
+              onClick={() => handleServiceClick("/partner-with-us")}
             >
               Partner With Us
             </Button>
@@ -263,7 +263,7 @@ const Navbar = () => {
                 Directors
               </button>
               <button
-                onClick={() => scrollToSection("contact")}
+                onClick={() => handleServiceClick("/contact")}
                 className="text-primary-foreground hover:text-primary-foreground/80 transition-colors font-medium py-2 text-left"
               >
                 Contact
@@ -271,7 +271,7 @@ const Navbar = () => {
               <Button
                 variant="nav"
                 size="default"
-                onClick={() => scrollToSection("contact")}
+                onClick={() => handleServiceClick("/partner-with-us")}
                 className="w-full"
               >
                 Partner With Us

@@ -1,6 +1,7 @@
 import { User } from "lucide-react";
 import subhajitRoyImg from "@/assets/subhajit-roy.png";
 import tamashaChatterjeeImg from "@/assets/tamasha-chatterjee.png";
+import rajkumarImg from "@/assets/rajkumar.png";
 
 const directors = [
   {
@@ -8,7 +9,7 @@ const directors = [
     din: "11441616",
     message:
       "Focuses on establishing a robust, compliant, and scalable organizational framework aligned with India's vision of sustainable and self-reliant growth.",
-    image: null
+    image: rajkumarImg
   },
   {
     name: "TAMASHA CHATTERJEE",
